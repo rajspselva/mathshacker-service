@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=maths_hackers;authenticationScheme=JavaKerberos
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: admin@123
+  liquibase:
+    enabled: true
+    drop-first: false

@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: perumas1
+      failOnError: false
+      changes:
+        - sqlFile:
+            dbms: mssql
+            encoding: utf8
+            endDelimiter: \nGO
+            path: changelog/sql/01_create_analogies_table.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+            stevedonies: create-multiple-tables
+      comment: Creating required tables
+      tag: POC
+      labels: 01_create_analogies_table.sql
