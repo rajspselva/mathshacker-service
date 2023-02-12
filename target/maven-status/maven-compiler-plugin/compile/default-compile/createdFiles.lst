@@ -1,0 +1,4 @@
+com/mathshackers/core/MathshackersApplication.class
+com/mathshackers/core/model/Analogies.class
+com/mathshackers/core/repository/AnalogiesRepository.class
+com/mathshackers/core/model/Constants.class

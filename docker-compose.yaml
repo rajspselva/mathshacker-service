@@ -1,0 +1,11 @@
+version: "3"
+services:
+  sqlserver:
+    hostname: sqlserver
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: admin@123
+      ACCEPT_EULA: "Y"
+      DATABASE: maths_hacker
+    ports:
+      - "1433:1433"
